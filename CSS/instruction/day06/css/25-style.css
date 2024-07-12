@@ -1,0 +1,41 @@
+
+div.container {
+  display: flex;
+  flex-direction: row;
+   justify-content:center;  /*! default degeri flex-start */
+  align-items: stretch;/* !* default degeri stretch */
+  height: 100vh;
+}
+
+
+
+div.container > div {
+  width: 50px;
+  /* height: 50px */;
+  text-align: center;
+}
+
+div.container div:nth-child(1) {
+  background-color: violet;
+  text-align: center;
+}
+
+div.container div:nth-child(2) {
+  background-color: rgb(71, 205, 78);
+  text-align: center;
+}
+
+div.container div:nth-child(3) {
+  background-color: rgb(46, 43, 196);
+  text-align: center;
+}
+
+div.container div:nth-child(4) {
+  background-color: rgb(224, 20, 20);
+  text-align: center;
+}
+
+div.container div:nth-child(5) {
+  background-color: gold;
+  text-align: center;
+}
